@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.7-26106" Device="epicurus" Modified="2016-06-01 13:36:07 -0400" ModID="E20A11F1-1C77-47D3-B794-6BCFD23E6F86">
+    <Binder>
+        <BinderItem ID="0" UUID="ECD789F2-02AF-4E21-8782-0EABFBF3CF8A" Type="DraftFolder" Created="2016-06-01 13:07:22 -0400" Modified="2016-06-01 13:07:22 -0400">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="3" UUID="FEC0F5E2-8524-4D84-958F-EF489E1E576B" Type="Text" Created="2016-06-01 13:07:22 -0400" Modified="2016-06-01 13:26:39 -0400">
+                    <Title>Front Matter</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="15" UUID="FECF2FC9-A20A-43B9-960B-CCBDC8092E58" Type="Text" Created="2016-06-01 13:11:53 -0400" Modified="2016-06-01 13:35:15 -0400">
+                            <Title>Title Page</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>30,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="6" UUID="8286899E-78A8-4E0E-82E5-CA7F70F9186D" Type="Text" Created="2016-06-01 13:09:44 -0400" Modified="2016-06-01 13:10:05 -0400">
+                            <Title>Dedication</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="7" UUID="C29381F7-A32B-4719-BBEC-CBD9EACA1864" Type="Text" Created="2016-06-01 13:10:07 -0400" Modified="2016-06-01 13:10:18 -0400">
+                            <Title>Acknowledgements</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="8" UUID="83017076-F9E8-4845-821E-C9E7FCA133B3" Type="Text" Created="2016-06-01 13:10:20 -0400" Modified="2016-06-01 13:10:27 -0400">
+                            <Title>Preface</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="9" UUID="3BFD2CE2-3C6B-4AF0-95D9-B07B68D0F0AA" Type="Text" Created="2016-06-01 13:10:30 -0400" Modified="2016-06-01 13:10:33 -0400">
+                            <Title>Abstract</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="10" UUID="5B026418-C87D-4F43-9AA1-97B0CF6B6D5C" Type="Text" Created="2016-06-01 13:10:38 -0400" Modified="2016-06-01 13:10:44 -0400">
+                            <Title>Table of Contents</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="11" UUID="553875CB-A878-4AC0-A044-9E915ABD4FC9" Type="Text" Created="2016-06-01 13:10:46 -0400" Modified="2016-06-01 13:10:55 -0400">
+                            <Title>List of Figures</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="12" UUID="F21DA6F8-8AD1-46A0-A353-BC723D9714BD" Type="Text" Created="2016-06-01 13:11:02 -0400" Modified="2016-06-01 13:11:09 -0400">
+                            <Title>List of Tables</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="13" UUID="1A5FE578-6083-44EF-A41F-B69E4FD7C2CE" Type="Text" Created="2016-06-01 13:11:16 -0400" Modified="2016-06-01 13:11:19 -0400">
+                            <Title>List of Appendices</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="17" UUID="7772FF57-0B74-4E1E-A6CF-089D2636BC01" Type="Text" Created="2016-06-01 13:12:48 -0400" Modified="2016-06-01 13:12:59 -0400">
+                    <Title>Introduction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="18" UUID="FC6A2C08-3CCC-4118-9696-AF14E582F15F" Type="Text" Created="2016-06-01 13:13:03 -0400" Modified="2016-06-01 13:13:10 -0400">
+                    <Title>Body</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="22" UUID="3E610D69-1F85-46FA-AC56-6C31D32A1108" Type="Text" Created="2016-06-01 13:13:45 -0400" Modified="2016-06-01 13:13:55 -0400">
+                            <Title>Chapter 1: ...</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="23" UUID="32E952CC-5998-44BA-A93B-EC7FA6B9ECDB" Type="Text" Created="2016-06-01 13:13:57 -0400" Modified="2016-06-01 13:14:02 -0400">
+                            <Title>Chapter 2: ...</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="24" UUID="8A18FAC0-31C5-4C49-BC83-D5E1CC5437F9" Type="Text" Created="2016-06-01 13:14:02 -0400" Modified="2016-06-01 13:14:07 -0400">
+                            <Title>Chapter 3: ...</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="19" UUID="1B3AC864-4E9C-4D0D-8411-60B5D3874675" Type="Text" Created="2016-06-01 13:13:20 -0400" Modified="2016-06-01 13:13:25 -0400">
+                    <Title>Conclusion</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="20" UUID="992DAD39-39B6-4DCD-8D0F-5CCF4761E1C2" Type="Text" Created="2016-06-01 13:13:26 -0400" Modified="2016-06-01 13:13:35 -0400">
+                    <Title>Appendices</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="21" UUID="FA54D803-908A-4C44-9AB9-DE0372CA1F91" Type="Text" Created="2016-06-01 13:13:35 -0400" Modified="2016-06-01 13:13:40 -0400">
+                    <Title>Bibliography</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="AF3CD7CA-D4D3-4483-BD15-FBFE4DE95446" Type="ResearchFolder" Created="2016-06-01 13:07:22 -0400" Modified="2016-06-01 13:07:22 -0400">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="F2CD56B2-87FE-4677-A15D-91007E79CE63" Type="TrashFolder" Created="2016-06-01 13:07:22 -0400" Modified="2016-06-01 13:07:22 -0400">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="14" UUID="5D3EEC4A-990F-4DDC-9A5A-D935B77195BC" Type="Folder" Created="2016-06-01 13:11:28 -0400" Modified="2016-06-01 13:11:28 -0400">
+                    <Title>New Folder</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="16" UUID="5A391D20-1B2F-4B90-AD9E-3F6B87C0041F" Type="Text" Created="2016-06-01 13:12:11 -0400" Modified="2016-06-01 13:12:11 -0400">
+                    <Title>Untitled</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="4" UUID="C69E0E63-FF7A-4F9F-812A-6E407CDF5DFF" Type="Folder" Created="2016-06-01 13:07:49 -0400" Modified="2016-06-01 13:08:31 -0400">
+            <Title>Notes</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <NotesTextSelection>0,0</NotesTextSelection>
+                <IconFileName>Notes (Blue Notepad).tiff</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem ID="5" UUID="3CF37186-153D-4DD5-8EE8-1670FA4857A1" Type="Folder" Created="2016-06-01 13:08:37 -0400" Modified="2016-06-01 13:09:10 -0400">
+            <Title>Figures and Graphs</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <NotesTextSelection>0,0</NotesTextSelection>
+                <IconFileName>Figures and Graphs.tiff</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="36DF1FEA-E392-4A6F-8DE3-75D13F10C757" Color="0.962266 0.962266 0.962266">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="B8CC02C9-800E-4869-84DF-6776D93AD601" Color="0.922 0.91 0.98">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.9 0.92 0.95">Concept</Label>
+            <Label ID="1" Color="0.985 0.875 0.85">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2016-06-01 13:07:21 -0400" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="31" Characters="257" Date="2016-06-01 13:07:21 -0400"></PreviousSession>
+    </ProjectTargets>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>
