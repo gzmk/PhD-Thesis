@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="3">
+            <Title>Front Matter</Title>
+        </Document>
+        <Document ID="12">
+            <Title>List of Tables</Title>
+        </Document>
+        <Document ID="21">
+            <Title>Bibliography</Title>
+        </Document>
+        <Document ID="4">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="30">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="13">
+            <Title>List of Appendices</Title>
+        </Document>
+        <Document ID="5">
+            <Title>Figures and Graphs</Title>
+        </Document>
+        <Document ID="22">
+            <Title>Chapter 1: Gloss Context</Title>
+        </Document>
+        <Document ID="6">
+            <Title>Dedication</Title>
+        </Document>
+        <Document ID="31">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="7">
+            <Title>Acknowledgements</Title>
+        </Document>
+        <Document ID="23">
+            <Title>Chapter 2: Gloss Bump</Title>
+        </Document>
+        <Document ID="40">
+            <Title>References</Title>
+        </Document>
+        <Document ID="32">
+            <Title>Conclusions</Title>
+        </Document>
+        <Document ID="15">
+            <Title>Title Page</Title>
+            <Text>Thesis
+
+
+by
+
+
+Gizem Kucukoglu
+
+
+A dissertation submitted in partial fulfillment 
+of the requirements for the degree of 
+Doctor of Philosophy
+Department of Psychology
+New York University
+January, 2017
+
+
+
+
+____________________________
+Michael S. Landy
+
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="8">
+            <Title>Preface</Title>
+        </Document>
+        <Document ID="24">
+            <Title>Chapter 3: Gloss Haptics</Title>
+        </Document>
+        <Document ID="9">
+            <Title>Abstract</Title>
+        </Document>
+        <Document ID="33">
+            <Title>Stimuli</Title>
+            <Text>Stimuli
+
+We generated a physical and a rendered set of stimuli for both gloss and depth. The details of each set of stimuli is explained in detail in below sections. </Text>
+        </Document>
+        <Document ID="41">
+            <Title>Physical Gloss Stimuli</Title>
+            <Text>Physical Gloss Stimuli
+
+	The physical gloss stimuli were spray painted ping-pong balls. Each painted ball had one of eleven possible gloss levels. First, we spray painted each ping-pong ball with Rust-Oleum® Specialty Camouflage Spray Paint in Khaki color. This paint produces an ultra-flat finish. 
+	To create a range of gloss levels we mixed matte and glossy varnishes in varying ratios and applied the desired varnish mixture on the painted ping-pong balls using spray bottles . We used Liquitex High Gloss Varnish and Liquitex Matte Varnish for the mixtures. For a given gloss level the matte/glossy varnish mixture always added up to 10ml.   For 10% gloss, we mixed 1ml glossy varnish with 9ml of matte varnish. Similarly, for 20% gloss, we mixed 2ml glossy varnish with 8ml of matte varnish. All the measurements were made using a 0.1ml sensitive syringe. The gloss levels had a range of [0, 100] % where physical gloss level had 10% increments. 0% gloss was the ping-pong ball with camouflage paint only and 100% gloss corresponded to the ping-pong ball with camouflage paint covered with glossy varnish only (10ml gloss varnish + 0ml matte varnish). </Text>
+        </Document>
+        <Document ID="42">
+            <Title>Measuring Physical Gloss</Title>
+        </Document>
+        <Document ID="34">
+            <Title>Apparatus</Title>
+        </Document>
+        <Document ID="17">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="43">
+            <Title>Rendered Stimuli</Title>
+        </Document>
+        <Document ID="26">
+            <Title>Title Page</Title>
+        </Document>
+        <Document ID="35">
+            <Title>Software</Title>
+        </Document>
+        <Document ID="18">
+            <Title>Body</Title>
+        </Document>
+        <Document ID="44">
+            <Title>Important links</Title>
+            <Text>Important links:
+
+3D printer specs: http://www.stratasys.com/3d-printers/idea-series/mojo
+Blender specs: https://www.blender.org/ (I use v2.72b)
+Equation editor: http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html
+How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/cite-write-your-manuscripts-and-essays-with-citations/scrivener-and-magic-citations-on-papers-for-mac
+
+</Text>
+        </Document>
+        <Document ID="27">
+            <Title>Abstract</Title>
+        </Document>
+        <Document ID="36">
+            <Title>Procedure</Title>
+        </Document>
+        <Document ID="19">
+            <Title>Conclusion</Title>
+        </Document>
+        <Document ID="28">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="37">
+            <Title>Observers</Title>
+        </Document>
+        <Document ID="29">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="38">
+            <Title>Physical Depth Stimuli</Title>
+            <Text>Physical Depth Stimuli
+
+	The physical stimuli for depth were 3-D printed ellipsoid arrays. Each ellipsoid array had one of eleven possible depth levels. We denote the physical values of depth as di (i = 1, 2, …, 11). We defined the stimulus using a Cartesian coordinate system where x- and y- axes lay fronto-parallel to the observer. The z-axis was parallel to the viewing direction. Twenty five spheres with x and y radii of 1cm were centered on a 5×5cm square grid. The spheres were then jittered randomly in the range of ±0.2cm in both x and y directions. To set the depth value of the ellipsoid array, the z radii of the spheres were scaled randomly in the range [0, di], where di = (i + 1)2/10 cm. This results in depth values in the range of [0.4, 4.4] cm. To 3-D print these shapes on a flat surface, we sliced the 3-D model in half through the x-y plane, creating a half-ellipsoid array. This does not affect the depth values of the ellipsoids as we scaled the z-radii in both top and bottom half of the ellipsoids.
+	The stimuli were printed using a Stratasys Mojo Desktop 3D Printer at NYU LaGuardia Studio. The 3-D printed stimuli were not hollow and were printed using the ABSplus model material in ivory color. The 3-D models of the objects were prepared using Blender 2.72b software and then imported into Print Wizard software provided by the Stratasys Mojo printer. 
+
+
+
+	
+ </Text>
+            <Comments>edit this using MathType.</Comments>
+        </Document>
+        <Document ID="39">
+            <Title>Acknowledgements</Title>
+        </Document>
+        <Document ID="10">
+            <Title>Table of Contents</Title>
+        </Document>
+        <Document ID="11">
+            <Title>List of Figures</Title>
+        </Document>
+        <Document ID="20">
+            <Title>Appendices</Title>
+        </Document>
+    </Documents>
+</SearchIndexes>
