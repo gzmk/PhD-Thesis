@@ -6,6 +6,7 @@
         </Document>
         <Document ID="12">
             <Title>List of Tables</Title>
+            <Text>LIST OF TABLES</Text>
         </Document>
         <Document ID="21">
             <Title>Bibliography</Title>
@@ -18,6 +19,7 @@
         </Document>
         <Document ID="13">
             <Title>List of Appendices</Title>
+            <Text>LIST OF APPENDICES</Text>
         </Document>
         <Document ID="5">
             <Title>Figures and Graphs</Title>
@@ -27,18 +29,20 @@
         </Document>
         <Document ID="6">
             <Title>Dedication</Title>
+            <Text>DEDICATION</Text>
         </Document>
         <Document ID="31">
             <Title>Discussion</Title>
         </Document>
-        <Document ID="7">
-            <Title>Acknowledgements</Title>
+        <Document ID="40">
+            <Title>References</Title>
         </Document>
         <Document ID="23">
             <Title>Chapter 2: Gloss Bump</Title>
         </Document>
-        <Document ID="40">
-            <Title>References</Title>
+        <Document ID="7">
+            <Title>Acknowledgements</Title>
+            <Text>ACKNOWLEDGEMENTS</Text>
         </Document>
         <Document ID="32">
             <Title>Conclusions</Title>
@@ -67,51 +71,71 @@ January, 2017
 ____________________________
 Michael S. Landy
 
-
+© Gizem Kucukoglu
+All Rights Reserved, 2017
 
 
 
 </Text>
-        </Document>
-        <Document ID="8">
-            <Title>Preface</Title>
-        </Document>
-        <Document ID="24">
-            <Title>Chapter 3: Gloss Haptics</Title>
-        </Document>
-        <Document ID="9">
-            <Title>Abstract</Title>
-        </Document>
-        <Document ID="33">
-            <Title>Stimuli</Title>
-            <Text>Stimuli
-
-We generated a physical and a rendered set of stimuli for both gloss and depth. The details of each set of stimuli is explained in detail in below sections. </Text>
         </Document>
         <Document ID="41">
             <Title>Physical Gloss Stimuli</Title>
             <Text>Physical Gloss Stimuli
 
 	The physical gloss stimuli were spray painted ping-pong balls. Each painted ball had one of eleven possible gloss levels. First, we spray painted each ping-pong ball with Rust-Oleum® Specialty Camouflage Spray Paint in Khaki color. This paint produces an ultra-flat finish. 
-	To create a range of gloss levels we mixed matte and glossy varnishes in varying ratios and applied the desired varnish mixture on the painted ping-pong balls using spray bottles . We used Liquitex High Gloss Varnish and Liquitex Matte Varnish for the mixtures. For a given gloss level the matte/glossy varnish mixture always added up to 10ml.   For 10% gloss, we mixed 1ml glossy varnish with 9ml of matte varnish. Similarly, for 20% gloss, we mixed 2ml glossy varnish with 8ml of matte varnish. All the measurements were made using a 0.1ml sensitive syringe. The gloss levels had a range of [0, 100] % where physical gloss level had 10% increments. 0% gloss was the ping-pong ball with camouflage paint only and 100% gloss corresponded to the ping-pong ball with camouflage paint covered with glossy varnish only (10ml gloss varnish + 0ml matte varnish). </Text>
+	To create a range of gloss levels we mixed matte and glossy varnishes in varying ratios and applied the desired varnish mixture on the painted ping-pong balls using spray bottles . We used Liquitex High Gloss Varnish and Liquitex Matte Varnish to prepare the varnish mixtures. For a given gloss level, the matte/glossy varnish mixture always added up to 10ml.   For 10% gloss coating, we mixed 1ml glossy varnish with 9ml of matte varnish. Similarly, for 20% gloss, we mixed 2ml glossy varnish with 8ml of matte varnish. All the measurements were made using a 0.1ml sensitive syringe. The gloss levels had a range of [0, 100] % where physical gloss level had 10% increments. 0% gloss was the ping-pong ball with camouflage paint only and 100% gloss corresponded to the ping-pong ball with camouflage paint covered with glossy varnish only (10ml gloss varnish + 0ml matte varnish). </Text>
+        </Document>
+        <Document ID="8">
+            <Title>Preface</Title>
+            <Text>PREFACE</Text>
+        </Document>
+        <Document ID="24">
+            <Title>Chapter 3: Gloss Haptics</Title>
+        </Document>
+        <Document ID="33">
+            <Title>Stimuli</Title>
+            <Text>Stimuli
+	We generated a physical and a rendered set of stimuli for both gloss and depth. The details of how each set of stimuli is generated are explained in detail in the following sections. </Text>
+        </Document>
+        <Document ID="9">
+            <Title>Abstract</Title>
+            <Text>ABSTRACT</Text>
         </Document>
         <Document ID="42">
             <Title>Measuring Physical Gloss</Title>
+            <Text>Matching Physical and Rendered Gloss
+
+	We came up with a novel method to match the gloss level of computer-rendered stimuli to the physical gloss levels we created. </Text>
         </Document>
         <Document ID="34">
-            <Title>Apparatus</Title>
+            <Title>Tone-Mapping Stimuli</Title>
         </Document>
         <Document ID="17">
             <Title>Introduction</Title>
+            <Text>INTRODUCTION
+</Text>
         </Document>
         <Document ID="43">
-            <Title>Rendered Stimuli</Title>
+            <Title>Computer-Rendered Stimuli</Title>
+            <Text>Computer-Rendered Stimuli
+
+	The computer-rendered stimuli were ellipsoid arrays with gloss and depth levels that matched the gloss and depth levels of physical stimuli. How physical gloss and rendered gloss were matched is described in the next section. Physical depth and rendered depth were matched by making the computer-rendered stimuli same size as the physical stimuli. The rendered stimuli were twenty five spheres arranged in a 5×5cm square grid. A given ellipsoid had x and y radii of 1cm with a ±0.2cm random jitter in both x and y directions. The z-radii of a given sphere randomly scaled in the range [0, di] where i = [2,10] excluding the lowest and the highest depth values in the physical range. This was done to provide a larger range for the observers during the task to allow for over- or underestimation of depth level. The computer-rendered stimuli lay fronto-parallel to the observer. 	</Text>
         </Document>
         <Document ID="26">
             <Title>Title Page</Title>
         </Document>
         <Document ID="35">
-            <Title>Software</Title>
+            <Title>Software and Apparatus</Title>
+            <Text>Software and Apparatus
+
+	The experimental software was written in MATLAB using Psychophysics ToolboxVersion 3 (cite). The experiment ran on a Mac Pro with 2.66 GHz Dual Core Intel Xeon equipped with NVIDIA GeForce 7300GT graphics card. The display used for the experiment was a Dell P780 monitor with a resolution 1024×768. Prior to the experiment the display was calibrated for any non-uniformity in luminance. Observers were seated 55cm away from the display with their head resting on a chin-rest.
+	The physical gloss and depth stimuli were attached on black cardboards and were placed to the left of the observer 55cm away from the observer. All physical stimuli were labeled with numbers [1,11] where 1 corresponded to 0% gloss and 0.4cm depth and 11 corresponded to 100% gloss and 4.4cm depth. When the observers looked to their left, the depth stimuli lay fronto-parallel to the observer. Both sets of physical stimuli were lit by a 24 Watts Satco 40” Accent Light attached on the ceiling of the display case. The light fixture span the full length of the display case, illuminating each stimulus from the top.   	
+	The monitor was encased in a black tunnel to block the light from physical stimulus reaching the monitor. The black tunnel was built from thick black foam boards and it extended to both sides of the chin-rest. While viewing the monitor from the chin-rest, the tunnel blocked right and left side of the observer’s view. 
+	Observers viewed the computer-rendered stimulus on the monitor monocularly and physical stimuli with both eyes. Instead of an eye-patch, we built a circular occluder in front of the chin-rest for monocular viewing. This made it easier for the observer to look back and forth between the monitor and the physical stimuli without having to wear the eye patch on and off. 
+	 
+
+</Text>
+            <Comments>add citation</Comments>
         </Document>
         <Document ID="18">
             <Title>Body</Title>
@@ -135,6 +159,7 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
         </Document>
         <Document ID="19">
             <Title>Conclusion</Title>
+            <Text>CONCLUSION</Text>
         </Document>
         <Document ID="28">
             <Title>Introduction</Title>
@@ -144,13 +169,14 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
         </Document>
         <Document ID="29">
             <Title>Methods</Title>
+            <Text>Methods</Text>
         </Document>
         <Document ID="38">
             <Title>Physical Depth Stimuli</Title>
             <Text>Physical Depth Stimuli
 
 	The physical stimuli for depth were 3-D printed ellipsoid arrays. Each ellipsoid array had one of eleven possible depth levels. We denote the physical values of depth as di (i = 1, 2, …, 11). We defined the stimulus using a Cartesian coordinate system where x- and y- axes lay fronto-parallel to the observer. The z-axis was parallel to the viewing direction. Twenty five spheres with x and y radii of 1cm were centered on a 5×5cm square grid. The spheres were then jittered randomly in the range of ±0.2cm in both x and y directions. To set the depth value of the ellipsoid array, the z radii of the spheres were scaled randomly in the range [0, di], where di = (i + 1)2/10 cm. This results in depth values in the range of [0.4, 4.4] cm. To 3-D print these shapes on a flat surface, we sliced the 3-D model in half through the x-y plane, creating a half-ellipsoid array. This does not affect the depth values of the ellipsoids as we scaled the z-radii in both top and bottom half of the ellipsoids.
-	The stimuli were printed using a Stratasys Mojo Desktop 3D Printer at NYU LaGuardia Studio. The 3-D printed stimuli were not hollow and were printed using the ABSplus model material in ivory color. The 3-D models of the objects were prepared using Blender 2.72b software and then imported into Print Wizard software provided by the Stratasys Mojo printer. 
+	The 3-D models of the objects were prepared using Blender 2.72b software and then imported into Print Wizard software provided by the Stratasys Mojo printer. The stimuli were printed using a Stratasys Mojo Desktop 3D Printer at NYU LaGuardia Studio. The 3-D printed stimuli were not hollow and were printed using the ABSplus model material in ivory color. 
 
 
 
@@ -163,9 +189,11 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
         </Document>
         <Document ID="10">
             <Title>Table of Contents</Title>
+            <Text>TABLE OF CONTENTS</Text>
         </Document>
         <Document ID="11">
             <Title>List of Figures</Title>
+            <Text>LIST OF FIGURES</Text>
         </Document>
         <Document ID="20">
             <Title>Appendices</Title>
