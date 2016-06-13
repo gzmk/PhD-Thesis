@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
 {\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl480\slmult1\pardirnatural\qj
@@ -7,22 +7,20 @@
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl480\slmult1\pardirnatural\qj
 
-\b0 \cf0 	We came up with a novel method to quantify the physical gloss levels we created. We took photos of the physical gloss stimuli under a known, real-world illumination and using a fitting  algorithm we determined three parameters for gloss and used these parameters to set the gloss levels of computer-rendered stimuli (see next section). \
+\b0 \cf0 	We came up with a novel method to quantify the physical gloss levels we created. We took photos of the physical gloss stimuli under a known, real-world illumination and using a fitting  algorithm we fitted three parameters of Ward bi-directional distribution function (BRDF). We then used these parameters to set the gloss levels of computer-rendered stimuli (see next section). \
+	A BRDF defines how light is reflected off of a surface. Ward BRDF {\field{\*\fldinst{HYPERLINK "scrivcmt://C04C4950-D394-4F78-B9C3-AC84FE6D17EE"}}{\fldrslt (Ward, 1992)}} has four parameters where \uc0\u961 \dn4 d \up0 determines diffuse reflectance, \uc0\u961 \dn4 s \up0 determines specular reflectance and \uc0\u945 \dn4 x \up0 and \uc0\u945 \dn4 y \up0 determine the spread (roughness) of the highlights. When objects have isotropic reflections, \uc0\u945 \dn4 x \up0 = \uc0\u945 \dn4 y\up0 . In our fitting procedure we used Ward BRDF because it is {\field{\*\fldinst{HYPERLINK "scrivcmt://295FF498-1D78-48EF-AD94-C5631E0654A8"}}{\fldrslt close to}} the physical truth and it has simple parameters which are easy to manipulate.\
+\
 	 
 \i Determining the illumination field:
-\i0  Using a SpheroCam HDR camera we captured a 360\'b0 panoramic, high dynamic range image of a room. The aperture was set to f/5.6 and shutter speed was 1/8 second. The resolution of the image was 5396\'d72698. The room was well-lit using various sources of illumination located in different places across the room. We chose an indoor location as we needed the light in the captured image to be constant over time. In an outdoor environment due to conditions like sun's motion or weather, the illumination can change over time. As we needed to photograph multiple objects under the exact same illumination, using an indoor location solved this problem.   \
-	{\field{\*\fldinst{HYPERLINK "scrivcmt://8C864136-906C-4224-AE0D-9083F26DA8F2"}}{\fldrslt Write about measuring the distance of the object and the focal length}}\
+\i0  Using a SpheroCam HDR camera with 16mm fish-eye lens we captured a 360\'b0 panoramic, high dynamic range (HDR) image of a room. The aperture was set to f/5.6, shutter speed was 1/8 second and ISO speed was 200. The resolution of the image was 5396\'d72698. The room was well-lit using various sources of illumination like desk and floor lamps located in different places across the room. We chose an indoor location as we needed the light in the captured image to be constant over time. In an outdoor environment due to conditions like sun's motion or weather, the illumination might change over time. As we needed to photograph multiple objects under the exact same illumination, using an indoor location avoided this problem.   \
 \
 	
 \i Photographing physical gloss stimuli:
-\i0  After taking the photo of the room we placed each physical gloss stimulus in this room and photographed it using the same settings. \
-By this way the photograph of the room acts as an illumination map for the painted balls. \
-How we measured focal distance\
-Ball was 27.5cm away from the focal point of the camera. Photograph all the objects using the same aperture and exposure settings. \
+\i0  After taking the photo of the room we placed each physical gloss stimulus (painted Ping-Pong ball) in the same room and photographed them one by one. By doing so the room acted as a light field for the painted balls. Each painted Ping-Pong ball was stuck on a tripod and the tripod was placed in the same exact location where the SpheroCam was when it took the photo of the room. This was done because we measured the exact illumination of the room from the viewpoint of the SpheroCam and to replicate this illumination we placed each Ping-Pong ball in the same location. SpheroCam was placed 27.5 cm away from the tripod with the stimulus. This distance ensured that the stimulus was in focus.  The stimulus on the tripod was 114.5cm from the floor which matched the distance from floor to the center of the SpheroCam lens. We photographed every stimulus using the same aperture and exposure settings as used in photographing the room. Instead of taking a full 360\'b0 photo, we only took a photo of the 30\'b0 slice which had the stimulus in it. All photos were high dynamic range.  \
 \
 	
 \i Generating sample rendered scene for fitting:
-\i0  \
+\i0  Before the fitting procedure we created a sample rendered scene that matched the photos we took of each stimulus. This sample rendered scene had to match the size and location of the stimulus in the photo and the highlights on the stimulus created by the illumination field. \
 	
 \i Fitting procedure:\
 	Results:}

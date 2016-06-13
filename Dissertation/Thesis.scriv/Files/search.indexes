@@ -34,6 +34,9 @@
         <Document ID="31">
             <Title>Discussion</Title>
         </Document>
+        <Document ID="14">
+            <Title>New Folder</Title>
+        </Document>
         <Document ID="40">
             <Title>References</Title>
         </Document>
@@ -85,12 +88,12 @@ All Rights Reserved, 2017
 	The physical gloss stimuli were spray painted ping-pong balls. Each painted ball had one of eleven possible gloss levels. First, we spray painted each ping-pong ball with Rust-Oleum® Specialty Camouflage Spray Paint in Khaki color. This paint produces an ultra-flat finish. 
 	To create a range of gloss levels we mixed matte and glossy varnishes in varying ratios and applied the desired varnish mixture on the painted ping-pong balls using spray bottles . We used Liquitex High Gloss Varnish and Liquitex Matte Varnish to prepare the varnish mixtures. For a given gloss level, the matte/glossy varnish mixture always added up to 10ml.   For 10% gloss coating, we mixed 1ml glossy varnish with 9ml of matte varnish. Similarly, for 20% gloss, we mixed 2ml glossy varnish with 8ml of matte varnish. All the measurements were made using a 0.1ml sensitive syringe. The gloss levels had a range of [0, 100] % where physical gloss level had 10% increments. 0% gloss was the ping-pong ball with camouflage paint only and 100% gloss corresponded to the ping-pong ball with camouflage paint covered with glossy varnish only (10ml gloss varnish + 0ml matte varnish). </Text>
         </Document>
+        <Document ID="24">
+            <Title>Chapter 3: Gloss Haptics</Title>
+        </Document>
         <Document ID="8">
             <Title>Preface</Title>
             <Text>PREFACE</Text>
-        </Document>
-        <Document ID="24">
-            <Title>Chapter 3: Gloss Haptics</Title>
         </Document>
         <Document ID="33">
             <Title>Stimuli</Title>
@@ -105,7 +108,25 @@ All Rights Reserved, 2017
             <Title>Measuring Physical Gloss</Title>
             <Text>Matching Physical and Rendered Gloss
 
-	We came up with a novel method to match the gloss level of computer-rendered stimuli to the physical gloss levels we created. </Text>
+	We came up with a novel method to quantify the physical gloss levels we created. We took photos of the physical gloss stimuli under a known, real-world illumination and using a fitting  algorithm we determined three parameters for gloss and used these parameters to set the gloss levels of computer-rendered stimuli (see next section). 
+	 Determining the illumination field: Using a SpheroCam HDR camera we captured a 360° panoramic, high dynamic range image of a room. The aperture was set to f/5.6 and shutter speed was 1/8 second. The resolution of the image was 5396×2698. The room was well-lit using various sources of illumination located in different places across the room. We chose an indoor location as we needed the light in the captured image to be constant over time. In an outdoor environment due to conditions like sun's motion or weather, the illumination can change over time. As we needed to photograph multiple objects under the exact same illumination, using an indoor location solved this problem.   
+	Write about measuring the distance of the object and the focal length
+
+	Photographing physical gloss stimuli: After taking the photo of the room we placed each physical gloss stimulus in this room and photographed it using the same settings. 
+By this way the photograph of the room acts as an illumination map for the painted balls. 
+How we measured focal distance
+Ball was 27.5cm away from the focal point of the camera. Photograph all the objects using the same aperture and exposure settings. 
+
+	Generating sample rendered scene for fitting: 
+	Fitting procedure:
+	Results:</Text>
+            <Comments>I think this was calculated by </Comments>
+        </Document>
+        <Document ID="16">
+            <Title>Untitled</Title>
+        </Document>
+        <Document ID="25">
+            <Title>Untitled</Title>
         </Document>
         <Document ID="34">
             <Title>Tone-Mapping Stimuli</Title>
@@ -156,6 +177,10 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
         </Document>
         <Document ID="36">
             <Title>Procedure</Title>
+            <Text>Procedure
+
+	We used a matching task in which a computer-rendered was presented on the screen at a given trial with two slider bars underneath. One slider bar was for matching gloss level and the other was for depth level. The observer's task was to pick one gloss level and one depth level from the physical stimuli sets which match the gloss and depth level of the stimulus on the screen and indicate the matched levels on the slider bars. The computer-rendered stimulus was always presented fronto-parallel to the observer and it was always viewed monocularly through a circular occluder. The physical stimuli sets for gloss and depth were viewed with both eyes and observers were allowed to move their head to look at them from different angles. The observer could look back and forth between the rendered and physical stimuli as many times as they needed until they made their decision. The numbers on the sliders matched that of the labels on the physical stimuli and ranged from 1 to 11 continuously. Observers used the mouse to indicate their responses on the slider bars. They were also allowed to pick values in between two gloss or two depth levels. Once the observer was happy with their decision they hit space bar on the keyboard to continue to the next trial.   
+</Text>
         </Document>
         <Document ID="19">
             <Title>Conclusion</Title>
@@ -166,6 +191,11 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
         </Document>
         <Document ID="37">
             <Title>Observers</Title>
+            <Text>Observers
+
+	Eleven observers participated in this study. All observers, except for GK (one of the authors), were unaware of the purpose of the experiment. All observers had normal or corrected-to-normal vision. 
+
+</Text>
         </Document>
         <Document ID="29">
             <Title>Methods</Title>
