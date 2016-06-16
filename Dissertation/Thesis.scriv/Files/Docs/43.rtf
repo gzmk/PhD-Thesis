@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
 {\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl480\slmult1\pardirnatural\qj
@@ -14,4 +14,5 @@
 \b \
 	
 \b0 For each depth level, nine gloss level stimuli were rendered using the three fitted Ward BRDF parameter obtained using the method explained in the previous section. We excluded lowest (0%) and highest (100%) gloss levels from the rendered stimuli set to allow for over- or underestimation of gloss level during the task. \
-	The images were rendered under two illumination conditions taken from the SYNS Dataset. }
+	The images were rendered under two illumination conditions taken from the SYNS Dataset ({\field{\*\fldinst{HYPERLINK "scrivcmt://72D7B390-0792-402A-8BB3-F7CEA5292A81"}}{\fldrslt citation? or link}}). For each illumination condition we had 81 stimuli (9 depth x 9 gloss levels) which resulted in a total of 162 computer-rendered stimuli. Rendering was done using RenderToolbox and Mitsuba. \
+	{\field{\*\fldinst{HYPERLINK "scrivcmt://1D7DE5E1-4502-4E61-BF44-790EDA91703A"}}{\fldrslt We tone-mapped and inverse-gamma corrected each rendered stimulus using a piecewise function. The bottom 75% of the luminance range was mapped to 0-75% range of [0,255] linearly and the top 25% of the luminance range was mapped to the 76-100% range of [0,255] with an asymptotic logistic function. }}As the luminance range was very different between the two illumination conditions we used a different tone-mapping function for each illumination condition. Same function was applied to all stimuli under the same illumination condition. Instead of linearizing our monitors we inverse gamma corrected each stimuli using the gamma measured from the monitor calibration. }

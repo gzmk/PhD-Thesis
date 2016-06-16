@@ -1,54 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <SearchIndexes Version="1.0">
     <Documents>
+        <Document ID="53">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="61">
+            <Title>Stimuli</Title>
+            <Text>Stimuli
+</Text>
+        </Document>
+        <Document ID="54">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="47">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="62">
+            <Title>Software and Apparatus</Title>
+        </Document>
+        <Document ID="55">
+            <Title>Conclusions</Title>
+        </Document>
+        <Document ID="48">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="63">
+            <Title>Procedure</Title>
+        </Document>
+        <Document ID="56">
+            <Title>Acknowledgments</Title>
+        </Document>
+        <Document ID="49">
+            <Title>Stimuli</Title>
+        </Document>
+        <Document ID="70">
+            <Title>Specs</Title>
+            <Text>3D printer specs: http://www.stratasys.com/3d-printers/idea-series/mojo
+Blender specs: https://www.blender.org/ (I use v2.72b)
+
+Gloss context experiment:
+
+	MacPro
+	Mac OSX 10.5.8
+	2x2.66GHz Dual-Core Intel Xeon
+	NVIDIA GeForce 7300GT
+
+Gloss Bump Experiment
+
+	iMac
+	OSX	El Capitan Version 10.11.4
+	3.1 GHz Intel Core i5
+	4GB 1333 MHz DDR3
+	AMD Radeon HD 6970M 1024MB
+
+Haptic experiment
+
+</Text>
+        </Document>
+        <Document ID="64">
+            <Title>Observers</Title>
+        </Document>
+        <Document ID="57">
+            <Title>Title Page</Title>
+        </Document>
+        <Document ID="65">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="58">
+            <Title>Abstract</Title>
+        </Document>
+        <Document ID="66">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="59">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="67">
+            <Title>Conclusions</Title>
+        </Document>
         <Document ID="3">
             <Title>Front Matter</Title>
         </Document>
-        <Document ID="12">
-            <Title>List of Tables</Title>
-            <Text>LIST OF TABLES</Text>
-        </Document>
-        <Document ID="21">
-            <Title>Bibliography</Title>
+        <Document ID="68">
+            <Title>Acknowledgements</Title>
         </Document>
         <Document ID="4">
             <Title>Notes</Title>
         </Document>
-        <Document ID="30">
-            <Title>Results</Title>
-        </Document>
-        <Document ID="13">
-            <Title>List of Appendices</Title>
-            <Text>LIST OF APPENDICES</Text>
-        </Document>
         <Document ID="5">
             <Title>Figures and Graphs</Title>
         </Document>
-        <Document ID="22">
-            <Title>Chapter 1: Gloss Context</Title>
+        <Document ID="69">
+            <Title>Important files</Title>
+            <Text>Important files:
+- FitGloss.m - where we fit lines through the best fitting BRDF parameters
+- Image_registration_spheron/imregfit.m - where we fit the photos of gloss stimuli to the sample render
+- </Text>
         </Document>
         <Document ID="6">
             <Title>Dedication</Title>
             <Text>DEDICATION</Text>
         </Document>
-        <Document ID="31">
-            <Title>Discussion</Title>
-        </Document>
-        <Document ID="14">
-            <Title>New Folder</Title>
-        </Document>
-        <Document ID="40">
-            <Title>References</Title>
-        </Document>
-        <Document ID="23">
-            <Title>Chapter 2: Gloss Bump</Title>
-        </Document>
         <Document ID="7">
             <Title>Acknowledgements</Title>
             <Text>ACKNOWLEDGEMENTS</Text>
         </Document>
-        <Document ID="32">
-            <Title>Conclusions</Title>
+        <Document ID="10">
+            <Title>Table of Contents</Title>
+            <Text>TABLE OF CONTENTS</Text>
+        </Document>
+        <Document ID="8">
+            <Title>Preface</Title>
+            <Text>PREFACE</Text>
+        </Document>
+        <Document ID="9">
+            <Title>Abstract</Title>
+            <Text>ABSTRACT</Text>
+        </Document>
+        <Document ID="11">
+            <Title>List of Figures</Title>
+            <Text>LIST OF FIGURES</Text>
+        </Document>
+        <Document ID="12">
+            <Title>List of Tables</Title>
+            <Text>LIST OF TABLES</Text>
+        </Document>
+        <Document ID="13">
+            <Title>List of Appendices</Title>
+            <Text>LIST OF APPENDICES</Text>
+        </Document>
+        <Document ID="20">
+            <Title>Appendices</Title>
+        </Document>
+        <Document ID="21">
+            <Title>Bibliography</Title>
+        </Document>
+        <Document ID="14">
+            <Title>New Folder</Title>
+        </Document>
+        <Document ID="22">
+            <Title>Chapter 1: Gloss Context</Title>
         </Document>
         <Document ID="15">
             <Title>Title Page</Title>
@@ -81,6 +172,50 @@ All Rights Reserved, 2017
 
 </Text>
         </Document>
+        <Document ID="30">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="23">
+            <Title>Chapter 2: Gloss Bump</Title>
+        </Document>
+        <Document ID="16">
+            <Title>Untitled</Title>
+        </Document>
+        <Document ID="31">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="24">
+            <Title>Chapter 3: Gloss Haptics</Title>
+        </Document>
+        <Document ID="17">
+            <Title>Introduction</Title>
+            <Text>INTRODUCTION
+</Text>
+        </Document>
+        <Document ID="32">
+            <Title>Conclusions</Title>
+        </Document>
+        <Document ID="25">
+            <Title>Untitled</Title>
+        </Document>
+        <Document ID="18">
+            <Title>Body</Title>
+        </Document>
+        <Document ID="40">
+            <Title>References</Title>
+        </Document>
+        <Document ID="33">
+            <Title>Stimuli</Title>
+            <Text>Stimuli
+	We generated a physical and a rendered set of stimuli for both gloss and depth. The details of how each set of stimuli is generated are explained in detail in the following sections. </Text>
+        </Document>
+        <Document ID="26">
+            <Title>Title Page</Title>
+        </Document>
+        <Document ID="19">
+            <Title>Conclusion</Title>
+            <Text>CONCLUSION</Text>
+        </Document>
         <Document ID="41">
             <Title>Physical Gloss Stimuli</Title>
             <Text>Physical Gloss Stimuli
@@ -88,20 +223,11 @@ All Rights Reserved, 2017
 	The physical gloss stimuli were spray painted ping-pong balls. Each painted ball had one of eleven possible gloss levels. First, we spray painted each ping-pong ball with Rust-Oleum® Specialty Camouflage Spray Paint in Khaki color. This paint produces an ultra-flat finish. 
 	To create a range of gloss levels we mixed matte and glossy varnishes in varying ratios and applied the desired varnish mixture on the painted ping-pong balls using spray bottles . We used Liquitex High Gloss Varnish and Liquitex Matte Varnish to prepare the varnish mixtures. For a given gloss level, the matte/glossy varnish mixture always added up to 10ml.   For 10% gloss coating, we mixed 1ml glossy varnish with 9ml of matte varnish. Similarly, for 20% gloss, we mixed 2ml glossy varnish with 8ml of matte varnish. All the measurements were made using a 0.1ml sensitive syringe. The gloss levels had a range of [0, 100] % where physical gloss level had 10% increments. 0% gloss was the ping-pong ball with camouflage paint only and 100% gloss corresponded to the ping-pong ball with camouflage paint covered with glossy varnish only (10ml gloss varnish + 0ml matte varnish). </Text>
         </Document>
-        <Document ID="8">
-            <Title>Preface</Title>
-            <Text>PREFACE</Text>
+        <Document ID="34">
+            <Title>Tone-Mapping Stimuli</Title>
         </Document>
-        <Document ID="24">
-            <Title>Chapter 3: Gloss Haptics</Title>
-        </Document>
-        <Document ID="33">
-            <Title>Stimuli</Title>
-            <Text>Stimuli
-	We generated a physical and a rendered set of stimuli for both gloss and depth. The details of how each set of stimuli is generated are explained in detail in the following sections. </Text>
-        </Document>
-        <Document ID="16">
-            <Title>Untitled</Title>
+        <Document ID="27">
+            <Title>Abstract</Title>
         </Document>
         <Document ID="42">
             <Title>Measuring Physical Gloss</Title>
@@ -114,34 +240,41 @@ All Rights Reserved, 2017
 
 	Photographing physical gloss stimuli: After taking the photo of the room we placed each physical gloss stimulus (painted Ping-Pong ball) in the same room and photographed them one by one. By doing so the room acted as a light field for the painted balls. Each painted Ping-Pong ball was stuck on a tripod and the tripod was placed in the same exact location where the SpheroCam was when it took the photo of the room. This was done because we measured the exact illumination of the room from the viewpoint of the SpheroCam and to replicate this illumination we placed each Ping-Pong ball in the same location. SpheroCam was placed 27.5 cm away from the tripod with the stimulus. This distance ensured that the stimulus was in focus.  The stimulus on the tripod was 114.5cm from the floor which matched the distance from floor to the center of the SpheroCam lens. We photographed every stimulus using the same aperture and exposure settings as used in photographing the room. Instead of taking a full 360° photo, we only took a photo of the 30° slice which had the stimulus in it. All photos were high dynamic range.  
 
-	Generating rendered reference scenes: Before the fitting procedure we created a sample rendered scene that matched the photos we took of each stimulus. This sample rendered scene had to match the size and location of the stimulus in the photo and the highlights on the stimulus created by the illumination field. We rendered an initial scene where the room photo was the illumination field and there was a rendered sphere with an arbitrary size and position. The gloss of the sample rendered sphere was chosen manually to look as close to the photo as possible. This was done to provide us visual guidance when matching the size and location of the sphere in the render and the photo. We did not need the gloss level to be correctly matched at this point. All the renderings were done using RenderToolbox3 (cite) for MATLAB using Mitsuba renderer. We then ran an fminsearch with x-scale, y-scale, x-position and y-position were the four parameters to be fitted. In each iteration the algorithm created an affine transformation matrix with a set of four parameters, applied this matrix on the rendered sphere and calculated a pixel-wise sum of squared error between the sample render and the photo of a given gloss stimulus. The search converged when the four parameters that give the minimum error was found. For each gloss stimulus photo taken, we created a different sample scene as each photo had small differences in the position of the painted ball. For each set of best fitting parameters we visually checked whether the locations of the highlights on the render were centered on the locations of the highlights in the photos. As a result, we had a reference render for each gloss level that matched the photo of that gloss level’s physical stimulus.    
+	Generating reference photos (I don’t like this subtitle): Before the fitting procedure we created a sample rendered scene and matched the photos of each stimulus to this sample render.  This was done to avoid the noise that small position shifts across the photos might cause. We rendered an initial scene where the room photo was the illumination field and there was a rendered sphere with size and position as similar to the photos as possible. The reflectance of the sample rendered sphere was chosen manually to look as close to the photo as possible. This was done to provide us visual guidance when matching the size and location of the sphere in the render and the photo. We did not need the gloss level to be correctly matched at this point. 
+	All the renderings were done using RenderToolbox3 (cite) for MATLAB using Mitsuba renderer. We then ran an fminsearch with x-scale, y-scale, x-position and y-position were the four parameters to be fitted. In each iteration the algorithm created an affine transformation matrix with a set of four parameters, applied this matrix to the photo and calculated a pixel-wise sum of squared error between the sample render and the photo of a given gloss stimulus. The search converged when the four parameters that give the minimum error was found. For each set of best fitting parameters we visually checked whether the locations of the highlights on the render were centered on the locations of the highlights in the photos. As a result, each gloss stimulus photo was registered to the same reference scene and the position of the sphere in each photo was now the same. 
 
-	Gloss fitting procedure: The reference renders generated in the previous step were in turn used to find the Ward BRDF parameters that match the gloss level of a given photo. First, we  converted all of our reference renders to grayscale and applied a circular mask to each render to discard the pixel information coming from the background. For a given gloss level, we ran a 2-D grid search where the two parameters of the grid were ρs for specularity and α for highlight spread. The diffuse parameter ρd was always equal to 1-ρs. (This was done to ensure that the renderer does not clip the rho_s+rho_d to be equal to 1). As our objects had isotropic reflections αx and αy were equal to α at all times. In every iteration of the grid search the algorithm rendered a 5414×2707 panoramic image with a rendered sphere located in the illumination field.  The rendered sphere’s gloss level was determined by the parameters picked from the search grid.  The image was then converted to grayscale and a circular mask was applied to discard the pixels  outside of the sphere. Before we calculated the error, every iteration we normalized both the reference photo and the rendered image by the mean luminance of each image respectively.  In each iteration error was calculated as the pixel-wise sum of squared error between the reference photo and the rendered image of the sphere. The algorithm worked such that the grid shrunk 35% around the best fitting pair of parameters and restarted the search with a finer grid until the best fitting parameters were found. 
-	We ran the gloss fitting for each gloss level separately. As a result, for each gloss level, we had three parameters (ρs, ρd = 1- ρs and α) that matched the physical gloss level of the painted Ping-Pong balls to the Ward BRDF parameters of a rendered sphere with the same illumination.  However, these parameters were calculated on the normalized photo-render pairs so we first undid the normalization step. Each best fit parameter was multiplied by the ratio of mean luminance of photo and mean luminance of render to undo the normalization. To make the albedo of the surfaces the same, we averaged across all the diffuse parameter fits and used the resulting value for the diffuse component. We also fit a line through the best fit values of specular component to ensure fill this part in. 
+	Gloss fitting procedure: The reference renders generated in the previous step were in turn used to find the Ward BRDF parameters that match the gloss level of a given photo. First, we  converted all of our reference renders to grayscale and applied a circular mask to each render to discard the pixel information coming from the background. For a given gloss level, we ran a 2-D grid search where the two parameters of the grid were ρs for specularity and α for highlight spread. The diffuse parameter ρd was always equal to 1-ρs. (This was done to ensure that the renderer does not clip the ρs + ρd to be equal to 1). As our objects had isotropic reflections αx and αy were equal to α at all times. In every iteration of the grid search the algorithm rendered a 5414×2707 panoramic image with a rendered sphere located in the illumination field.  The rendered sphere’s gloss level was determined by the parameters picked from the search grid.  The image was then converted to grayscale and a circular mask was applied to discard the pixels  outside of the sphere. Before we calculated the error, every iteration we normalized both the reference photo and the rendered image by the mean luminance of each image respectively.  In each iteration error was calculated as the pixel-wise sum of squared error between the reference photo and the rendered image of the sphere. The algorithm worked such that the grid shrunk 35% around the best fitting pair of parameters and restarted the search with a finer grid until the best fitting parameters were found. 
+	We ran the gloss fitting for each gloss level separately. As a result, for each gloss level, we had three parameters (ρs, ρd = 1- ρs and α) that matched the physical gloss level of the painted Ping-Pong balls to the Ward BRDF parameters of a rendered sphere with the same illumination.  However, these parameters were calculated on the normalized photo-render pairs so we first undid the normalization step. Each best fit parameter was multiplied by the ratio of mean luminance of photo and mean luminance of render to undo the normalization. To make the albedo of the surfaces the same, we averaged across all the diffuse parameter fits and used the resulting value as the diffuse component across all gloss levels. We also fit a line through the best fit values of specular component to ensure fill this part in. 
 	Should I show a table of the fit parameters?
 	Figure to show residuals</Text>
             <Comments>cite
 is this correct? find citation
-I think I explained this wrong, the photos were registered to the render. Fix this in the explanation. 
+come up with better title
 cite!
-rephrase
-subscript
-subscript</Comments>
+rephrase</Comments>
         </Document>
-        <Document ID="25">
-            <Title>Untitled</Title>
-        </Document>
-        <Document ID="9">
-            <Title>Abstract</Title>
-            <Text>ABSTRACT</Text>
-        </Document>
-        <Document ID="34">
-            <Title>Tone-Mapping Stimuli</Title>
-        </Document>
-        <Document ID="17">
-            <Title>Introduction</Title>
-            <Text>INTRODUCTION
+        <Document ID="35">
+            <Title>Software and Apparatus</Title>
+            <Text>Software and Apparatus
+
+	The experimental software was written in MATLAB using Psychophysics ToolboxVersion 3 {Kleiner:2007ui}. The experiment ran on an iMac with 3.1 GHz Intel Core i5 equipped with AMD Radeon HD 6970M graphics card. The display used for the experiment was a Dell P780 CRT monitor with a resolution 1024×768. Prior to the experiment the display was calibrated for any non-uniformity in luminance. Observers were seated 55cm away from the display with their head resting on a chin-rest.
+	The physical gloss and depth stimuli were attached on black cardboards and were placed to the left of the observer 55cm away from the observer. All physical stimuli were labeled with numbers [1,11] where 1 corresponded to 0% gloss and 0.4cm depth and 11 corresponded to 100% gloss and 4.4cm depth. When the observers looked to their left, the depth stimuli lay fronto-parallel to the observer. Both sets of physical stimuli were lit by a 24 Watts Satco 40” Accent Light attached on the ceiling of the display case. The light fixture span the full length of the display case, illuminating each stimulus from the top.   	
+	The monitor was encased in a black tunnel to block the light from physical stimulus reaching the monitor. The black tunnel was built from thick black foam boards and it extended to both sides of the chin-rest. While viewing the monitor from the chin-rest, the tunnel blocked right and left side of the observer’s view. 
+	Observers viewed the computer-rendered stimulus on the monitor monocularly and physical stimuli with both eyes. Instead of an eye-patch, we built a circular occluder in front of the chin-rest for monocular viewing. This made it easier for the observer to look back and forth between the monitor and the physical stimuli without having to wear the eye patch on and off. 
+	 
+
 </Text>
+        </Document>
+        <Document ID="28">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="50">
+            <Title>Software and Apparatus</Title>
+            <Text>Sofware and Apparatus
+
+	The experimental software was written in MATLAB using Psychophysica Toolbox Version 3 (cite). The experiment ran on two locations; NYU and University of Southampton. At NYU, the experiment ran on a Mac Pro with 2.66 GHz Dual Core Intel Xeon equipped with NVIDIA GeForce 7300GT graphics card. The display used for the experiment was a Dell P780 CRT monitor with a resolution 1024×768. At University of Southampton, the experiment ran on a COMPUTER equipped with GRAPHICS CARD. The display was a MONITOR with a resolution RESOLUTION. Both monitors were calibrated for any non-uniformity in luminance prior to the experiment. Observers were seated 55cm away from the display with their head resting on a chin-rest. Observers viewed the monitor monocularly using an eye-patch. They were instructed to cover their non-dominant eye and we tested which eye was non-dominant before the experiment. 
+	</Text>
+            <Comments>what is the distance at Southampton?</Comments>
         </Document>
         <Document ID="43">
             <Title>Computer-Rendered Stimuli</Title>
@@ -149,41 +282,10 @@ subscript</Comments>
 
 	The computer-rendered stimuli were ellipsoid arrays with gloss and depth levels that matched the gloss and depth levels of physical stimuli. Physical depth and rendered depth were matched by making the computer-rendered stimuli same size as the physical stimuli. The rendered stimuli were twenty five spheres arranged in a 5×5cm square grid. A given ellipsoid had x and y radii of 1cm with a ±0.2cm random jitter in both x and y directions. The z-radii of a given sphere randomly scaled in the range [0, di] cm where i = [2,10] excluding the lowest and the highest depth values in the physical range resulting in nine depth levels. This was done to provide a larger range for the observers during the task to allow for over- or underestimation of depth level. The computer-rendered stimuli lay fronto-parallel to the observer. 
 	For each depth level, nine gloss level stimuli were rendered using the three fitted Ward BRDF parameter obtained using the method explained in the previous section. We excluded lowest (0%) and highest (100%) gloss levels from the rendered stimuli set to allow for over- or underestimation of gloss level during the task. 
-	The images were rendered under two illumination conditions taken from the SYNS Dataset. </Text>
-        </Document>
-        <Document ID="26">
-            <Title>Title Page</Title>
-        </Document>
-        <Document ID="35">
-            <Title>Software and Apparatus</Title>
-            <Text>Software and Apparatus
-
-	The experimental software was written in MATLAB using Psychophysics ToolboxVersion 3 (cite). The experiment ran on a Mac Pro with 2.66 GHz Dual Core Intel Xeon equipped with NVIDIA GeForce 7300GT graphics card. The display used for the experiment was a Dell P780 monitor with a resolution 1024×768. Prior to the experiment the display was calibrated for any non-uniformity in luminance. Observers were seated 55cm away from the display with their head resting on a chin-rest.
-	The physical gloss and depth stimuli were attached on black cardboards and were placed to the left of the observer 55cm away from the observer. All physical stimuli were labeled with numbers [1,11] where 1 corresponded to 0% gloss and 0.4cm depth and 11 corresponded to 100% gloss and 4.4cm depth. When the observers looked to their left, the depth stimuli lay fronto-parallel to the observer. Both sets of physical stimuli were lit by a 24 Watts Satco 40” Accent Light attached on the ceiling of the display case. The light fixture span the full length of the display case, illuminating each stimulus from the top.   	
-	The monitor was encased in a black tunnel to block the light from physical stimulus reaching the monitor. The black tunnel was built from thick black foam boards and it extended to both sides of the chin-rest. While viewing the monitor from the chin-rest, the tunnel blocked right and left side of the observer’s view. 
-	Observers viewed the computer-rendered stimulus on the monitor monocularly and physical stimuli with both eyes. Instead of an eye-patch, we built a circular occluder in front of the chin-rest for monocular viewing. This made it easier for the observer to look back and forth between the monitor and the physical stimuli without having to wear the eye patch on and off. 
-	 
-
-</Text>
-            <Comments>add citation
-this is wrong, the experiment ran on an iMac, check the specs of the computer</Comments>
-        </Document>
-        <Document ID="18">
-            <Title>Body</Title>
-        </Document>
-        <Document ID="44">
-            <Title>Important links</Title>
-            <Text>Important links:
-
-3D printer specs: http://www.stratasys.com/3d-printers/idea-series/mojo
-Blender specs: https://www.blender.org/ (I use v2.72b)
-Equation editor: http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html
-How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/cite-write-your-manuscripts-and-essays-with-citations/scrivener-and-magic-citations-on-papers-for-mac
-
-</Text>
-        </Document>
-        <Document ID="27">
-            <Title>Abstract</Title>
+	The images were rendered under two illumination conditions taken from the SYNS Dataset (citation? or link). For each illumination condition we had 81 stimuli (9 depth x 9 gloss levels) which resulted in a total of 162 computer-rendered stimuli. Rendering was done using RenderToolbox and Mitsuba. 
+	We tone-mapped and inverse-gamma corrected each rendered stimulus using a piecewise function. The bottom 75% of the luminance range was mapped to 0-75% range of [0,255] linearly and the top 25% of the luminance range was mapped to the 76-100% range of [0,255] with an asymptotic logistic function. As the luminance range was very different between the two illumination conditions we used a different tone-mapping function for each illumination condition. Same function was applied to all stimuli under the same illumination condition. Instead of linearizing our monitors we inverse gamma corrected each stimuli using the gamma measured from the monitor calibration. </Text>
+            <Comments>Gizem Kucukoglu, 6/16/16, 3:28 PM
+double check this</Comments>
         </Document>
         <Document ID="36">
             <Title>Procedure</Title>
@@ -192,12 +294,15 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
 	We used a matching task in which a computer-rendered was presented on the screen at a given trial with two slider bars underneath. One slider bar was for matching gloss level and the other was for depth level. The observer's task was to pick one gloss level and one depth level from the physical stimuli sets which match the gloss and depth level of the stimulus on the screen and indicate the matched levels on the slider bars. The computer-rendered stimulus was always presented fronto-parallel to the observer and it was always viewed monocularly through a circular occluder. The physical stimuli sets for gloss and depth were viewed with both eyes and observers were allowed to move their head to look at them from different angles. The observer could look back and forth between the rendered and physical stimuli as many times as they needed until they made their decision. The numbers on the sliders matched that of the labels on the physical stimuli and ranged from 1 to 11 continuously. Observers used the mouse to indicate their responses on the slider bars. They were also allowed to pick values in between two gloss or two depth levels. Once the observer was happy with their decision they hit space bar on the keyboard to continue to the next trial.   
 </Text>
         </Document>
-        <Document ID="19">
-            <Title>Conclusion</Title>
-            <Text>CONCLUSION</Text>
+        <Document ID="29">
+            <Title>Methods</Title>
+            <Text>Methods</Text>
         </Document>
-        <Document ID="28">
-            <Title>Introduction</Title>
+        <Document ID="51">
+            <Title>Procedure</Title>
+            <Text>Procedure
+
+	We used a two-interval forced choice (2IFC) paradigm in which in a given trial observers were presented two stimuli, one after the other. The observer’s task was to pick which stimulus out of the two was made out of a more glossy material. They indicated their response using the left and right arrow keys; left arrow key for the first object looking glossier and right arrow key for the second object looking glossier. The stimulus was always presented full-screen to the observer. Write the number of seconds it takes for stimulus and ISI. Each observer participated in six experimental sessions and one control session. Each experimental session had # trials and the control experiment had 90 trials. Each experimental session took approximately one hour to complete and the control experiment took 10 minutes resulting in a total of 6 hours 10 mins of data collection. </Text>
         </Document>
         <Document ID="37">
             <Title>Observers</Title>
@@ -207,9 +312,20 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
 
 </Text>
         </Document>
-        <Document ID="29">
-            <Title>Methods</Title>
-            <Text>Methods</Text>
+        <Document ID="44">
+            <Title>Important links</Title>
+            <Text>Important links:
+
+Equation editor: http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html
+How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/cite-write-your-manuscripts-and-essays-with-citations/scrivener-and-magic-citations-on-papers-for-mac
+
+</Text>
+        </Document>
+        <Document ID="52">
+            <Title>Observers</Title>
+        </Document>
+        <Document ID="45">
+            <Title>Title Page</Title>
         </Document>
         <Document ID="38">
             <Title>Physical Depth Stimuli</Title>
@@ -224,19 +340,15 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
  </Text>
             <Comments>edit this using MathType.</Comments>
         </Document>
+        <Document ID="46">
+            <Title>Abstract</Title>
+        </Document>
         <Document ID="39">
             <Title>Acknowledgements</Title>
         </Document>
-        <Document ID="10">
-            <Title>Table of Contents</Title>
-            <Text>TABLE OF CONTENTS</Text>
-        </Document>
-        <Document ID="11">
-            <Title>List of Figures</Title>
-            <Text>LIST OF FIGURES</Text>
-        </Document>
-        <Document ID="20">
-            <Title>Appendices</Title>
+        <Document ID="60">
+            <Title>Methods</Title>
+            <Text>Methods</Text>
         </Document>
     </Documents>
 </SearchIndexes>
