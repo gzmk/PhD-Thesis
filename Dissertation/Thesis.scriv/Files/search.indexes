@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="53">
-            <Title>Results</Title>
+        <Document ID="39">
+            <Title>Acknowledgements</Title>
         </Document>
         <Document ID="61">
             <Title>Stimuli</Title>
@@ -23,15 +23,6 @@
         </Document>
         <Document ID="48">
             <Title>Methods</Title>
-        </Document>
-        <Document ID="63">
-            <Title>Procedure</Title>
-        </Document>
-        <Document ID="56">
-            <Title>Acknowledgments</Title>
-        </Document>
-        <Document ID="49">
-            <Title>Stimuli</Title>
         </Document>
         <Document ID="70">
             <Title>Specs</Title>
@@ -57,6 +48,15 @@ Haptic experiment
 
 </Text>
         </Document>
+        <Document ID="63">
+            <Title>Procedure</Title>
+        </Document>
+        <Document ID="56">
+            <Title>Acknowledgments</Title>
+        </Document>
+        <Document ID="49">
+            <Title>Stimuli</Title>
+        </Document>
         <Document ID="64">
             <Title>Observers</Title>
         </Document>
@@ -69,11 +69,18 @@ Haptic experiment
         <Document ID="58">
             <Title>Abstract</Title>
         </Document>
+        <Document ID="72">
+            <Title>results-ch2</Title>
+        </Document>
         <Document ID="66">
             <Title>Discussion</Title>
         </Document>
         <Document ID="59">
             <Title>Introduction</Title>
+        </Document>
+        <Document ID="73">
+            <Title>Image Statistics</Title>
+            <Text>Image Statistics</Text>
         </Document>
         <Document ID="67">
             <Title>Conclusions</Title>
@@ -174,6 +181,17 @@ All Rights Reserved, 2017
         </Document>
         <Document ID="30">
             <Title>Results</Title>
+            <Text>Results
+
+	Perceived depth and glossiness averaged across all observers are shown in Figure #a and Figure #b respectively. The results are binned into three gloss and three depth levels, where low depth (gray) corresponds to depth values [0.4, 0.8, 1.2] cm, medium depth (red) is [1.6, 2.0, 2.4] cm and high depth (green) is [2.8, 3.2, 3.6] cm. Similarly for gloss, low gloss (light shades) corresponds to gloss values of [10, 20, 30] %, medium gloss (medium shades) is [40, 50, 60] % and high gloss (dark shades) is [70, 80, 90] %. 
+	Figure #a shows observers' depth estimates as a function of true depth where colors represent the three different depth levels and the saturation of the colors represent different gloss levels. If the observer perfectly matched perceived depth to true depth, the data would fall on the blue identity line. As can be seen from this figure, perceived depth is overestimated for low depth levels (gray) and underestimated for high depth levels (green). There is no difference in estimated depth across different gloss levels. 
+	Figure #b shows observers' gloss estimates as a function of true glossiness where colors show different depth levels. This figure shows that, perceived glossiness changes depending on the depth level, where stimuli with high depth are judged to be glossier and stimuli with low depth are underestimated in glossiness.  	
+
+#
+Figure #: Results for the matching task. We converted observers' numerical matches back to centimeters for depth and percentages for gloss. (a) Perceived depth as a function of true depth averaged across all participants.  </Text>
+            <Comments>add a. and b. to the figure for depth and gloss respectively
+- make the titles and axes labels smaller.
+- maybe make the lines thinner?</Comments>
         </Document>
         <Document ID="23">
             <Title>Chapter 2: Gloss Bump</Title>
@@ -211,6 +229,20 @@ All Rights Reserved, 2017
         </Document>
         <Document ID="26">
             <Title>Title Page</Title>
+            <Text>Joint estimation of surface gloss and 3D shape
+
+
+Gizem Kucukoglu Department of Psychology, New York University
+Wendy J. Adams Department of Psychology, University of Southampton
+Michael S. Landy Department of Psychology, New York University
+			   Center of Neural Science, New York Universit
+(Order of authors has not been decided)
+
+
+Title as of now: Joint estimation of surface gloss and 3D shape 
+
+
+</Text>
         </Document>
         <Document ID="19">
             <Title>Conclusion</Title>
@@ -228,6 +260,9 @@ All Rights Reserved, 2017
         </Document>
         <Document ID="27">
             <Title>Abstract</Title>
+            <Text>Abstract
+
+</Text>
         </Document>
         <Document ID="42">
             <Title>Measuring Physical Gloss</Title>
@@ -246,7 +281,7 @@ All Rights Reserved, 2017
 	Gloss fitting procedure: The reference renders generated in the previous step were in turn used to find the Ward BRDF parameters that match the gloss level of a given photo. First, we  converted all of our reference renders to grayscale and applied a circular mask to each render to discard the pixel information coming from the background. For a given gloss level, we ran a 2-D grid search where the two parameters of the grid were ρs for specularity and α for highlight spread. The diffuse parameter ρd was always equal to 1-ρs. (This was done to ensure that the renderer does not clip the ρs + ρd to be equal to 1). As our objects had isotropic reflections αx and αy were equal to α at all times. In every iteration of the grid search the algorithm rendered a 5414×2707 panoramic image with a rendered sphere located in the illumination field.  The rendered sphere’s gloss level was determined by the parameters picked from the search grid.  The image was then converted to grayscale and a circular mask was applied to discard the pixels  outside of the sphere. Before we calculated the error, every iteration we normalized both the reference photo and the rendered image by the mean luminance of each image respectively.  In each iteration error was calculated as the pixel-wise sum of squared error between the reference photo and the rendered image of the sphere. The algorithm worked such that the grid shrunk 35% around the best fitting pair of parameters and restarted the search with a finer grid until the best fitting parameters were found. 
 	We ran the gloss fitting for each gloss level separately. As a result, for each gloss level, we had three parameters (ρs, ρd = 1- ρs and α) that matched the physical gloss level of the painted Ping-Pong balls to the Ward BRDF parameters of a rendered sphere with the same illumination.  However, these parameters were calculated on the normalized photo-render pairs so we first undid the normalization step. Each best fit parameter was multiplied by the ratio of mean luminance of photo and mean luminance of render to undo the normalization. To make the albedo of the surfaces the same, we averaged across all the diffuse parameter fits and used the resulting value as the diffuse component across all gloss levels. We also fit a line through the best fit values of specular component to ensure fill this part in. 
 	Should I show a table of the fit parameters?
-	Figure to show residuals</Text>
+	Make Figure to show residuals</Text>
             <Comments>cite
 is this correct? find citation
 come up with better title
@@ -260,13 +295,14 @@ rephrase</Comments>
 	The experimental software was written in MATLAB using Psychophysics ToolboxVersion 3 {Kleiner:2007ui}. The experiment ran on an iMac with 3.1 GHz Intel Core i5 equipped with AMD Radeon HD 6970M graphics card. The display used for the experiment was a Dell P780 CRT monitor with a resolution 1024×768. Prior to the experiment the display was calibrated for any non-uniformity in luminance. Observers were seated 55cm away from the display with their head resting on a chin-rest.
 	The physical gloss and depth stimuli were attached on black cardboards and were placed to the left of the observer 55cm away from the observer. All physical stimuli were labeled with numbers [1,11] where 1 corresponded to 0% gloss and 0.4cm depth and 11 corresponded to 100% gloss and 4.4cm depth. When the observers looked to their left, the depth stimuli lay fronto-parallel to the observer. Both sets of physical stimuli were lit by a 24 Watts Satco 40” Accent Light attached on the ceiling of the display case. The light fixture span the full length of the display case, illuminating each stimulus from the top.   	
 	The monitor was encased in a black tunnel to block the light from physical stimulus reaching the monitor. The black tunnel was built from thick black foam boards and it extended to both sides of the chin-rest. While viewing the monitor from the chin-rest, the tunnel blocked right and left side of the observer’s view. 
-	Observers viewed the computer-rendered stimulus on the monitor monocularly and physical stimuli with both eyes. Instead of an eye-patch, we built a circular occluder in front of the chin-rest for monocular viewing. This made it easier for the observer to look back and forth between the monitor and the physical stimuli without having to wear the eye patch on and off. 
-	 
+	Observers viewed the computer-rendered stimulus on the monitor monocularly and physical stimuli with both eyes. Instead of an eye-patch, we built a circular occluder in front of the chin-rest for monocular viewing. This made it easier for the observer to look back and forth between the monitor and the physical stimuli without having to constantly remove and put on the eye patch. 
+	 Add photo of apparatus
 
 </Text>
         </Document>
         <Document ID="28">
             <Title>Introduction</Title>
+            <Text>Introduction </Text>
         </Document>
         <Document ID="50">
             <Title>Software and Apparatus</Title>
@@ -281,9 +317,9 @@ rephrase</Comments>
             <Text>Computer-Rendered Stimuli
 
 	The computer-rendered stimuli were ellipsoid arrays with gloss and depth levels that matched the gloss and depth levels of physical stimuli. Physical depth and rendered depth were matched by making the computer-rendered stimuli same size as the physical stimuli. The rendered stimuli were twenty five spheres arranged in a 5×5cm square grid. A given ellipsoid had x and y radii of 1cm with a ±0.2cm random jitter in both x and y directions. The z-radii of a given sphere randomly scaled in the range [0, di] cm where i = [2,10] excluding the lowest and the highest depth values in the physical range resulting in nine depth levels. This was done to provide a larger range for the observers during the task to allow for over- or underestimation of depth level. The computer-rendered stimuli lay fronto-parallel to the observer. 
-	For each depth level, nine gloss level stimuli were rendered using the three fitted Ward BRDF parameter obtained using the method explained in the previous section. We excluded lowest (0%) and highest (100%) gloss levels from the rendered stimuli set to allow for over- or underestimation of gloss level during the task. 
+	For each depth level, nine gloss level stimuli were rendered. For a given gloss level we used the three fitted Ward BRDF parameters obtained using the fitting method explained in the previous section. We excluded lowest (0%) and highest (100%) gloss levels from the rendered stimuli set to allow for over- or underestimation of gloss level during the task. 
 	The images were rendered under two illumination conditions taken from the SYNS Dataset (citation? or link). For each illumination condition we had 81 stimuli (9 depth x 9 gloss levels) which resulted in a total of 162 computer-rendered stimuli. Rendering was done using RenderToolbox and Mitsuba. 
-	We tone-mapped and inverse-gamma corrected each rendered stimulus using a piecewise function. The bottom 75% of the luminance range was mapped to 0-75% range of [0,255] linearly and the top 25% of the luminance range was mapped to the 76-100% range of [0,255] with an asymptotic logistic function. As the luminance range was very different between the two illumination conditions we used a different tone-mapping function for each illumination condition. Same function was applied to all stimuli under the same illumination condition. Instead of linearizing our monitors we inverse gamma corrected each stimuli using the gamma measured from the monitor calibration. </Text>
+	We tone-mapped and inverse-gamma corrected each rendered stimulus using a piecewise function. The bottom 75% of the luminance range was mapped to 0-75% range of [0,255] linearly and the top 25% of the luminance range was mapped to the 76-100% range of [0,255] with an asymptotic logistic function.  Should I add equations? As the luminance range was very different between the two illumination conditions we used a different tone-mapping function for each illumination condition. Same function was applied to all stimuli under the same illumination condition. Instead of linearizing our monitors we inverse gamma corrected each stimuli using the gamma measured from the monitor calibration. </Text>
             <Comments>Gizem Kucukoglu, 6/16/16, 3:28 PM
 double check this</Comments>
         </Document>
@@ -291,8 +327,8 @@ double check this</Comments>
             <Title>Procedure</Title>
             <Text>Procedure
 
-	We used a matching task in which a computer-rendered was presented on the screen at a given trial with two slider bars underneath. One slider bar was for matching gloss level and the other was for depth level. The observer's task was to pick one gloss level and one depth level from the physical stimuli sets which match the gloss and depth level of the stimulus on the screen and indicate the matched levels on the slider bars. The computer-rendered stimulus was always presented fronto-parallel to the observer and it was always viewed monocularly through a circular occluder. The physical stimuli sets for gloss and depth were viewed with both eyes and observers were allowed to move their head to look at them from different angles. The observer could look back and forth between the rendered and physical stimuli as many times as they needed until they made their decision. The numbers on the sliders matched that of the labels on the physical stimuli and ranged from 1 to 11 continuously. Observers used the mouse to indicate their responses on the slider bars. They were also allowed to pick values in between two gloss or two depth levels. Once the observer was happy with their decision they hit space bar on the keyboard to continue to the next trial.   
-</Text>
+	We used a matching task in which a computer-rendered stimulus was presented on the screen at a given trial with two slider bars underneath. One slider bar was for matching gloss level and the other was for depth level. The observer's task was to pick one gloss level and one depth level from the physical stimuli sets which match the gloss and depth level of the stimulus on the screen and indicate the matched levels on the slider bars. The computer-rendered stimulus was always presented fronto-parallel to the observer and it was always viewed monocularly through a circular occluder. The physical stimuli sets for gloss and depth were viewed with both eyes and observers were allowed to move their head to look at them from different angles. The observer could look back and forth between the rendered and physical stimuli as many times as they needed until they made their decision. The numbers on the sliders matched that of the labels on the physical stimuli and ranged from 1 to 11 continuously. Observers used the mouse to indicate their responses on the slider bars. They were also allowed to pick values in between two gloss or two depth levels. Once the observer was happy with their decision they hit space bar on the keyboard to continue to the next trial. Each observer completed 162 trials in a two, 45 minute sessions. The order of computer-rendered stimuli were randomized across all trials.   
+	Add figure about the task</Text>
         </Document>
         <Document ID="29">
             <Title>Methods</Title>
@@ -308,7 +344,7 @@ double check this</Comments>
             <Title>Observers</Title>
             <Text>Observers
 
-	Eleven observers participated in this study. All observers, except for GK (one of the authors), were unaware of the purpose of the experiment. All observers had normal or corrected-to-normal vision. 
+	Eleven observers participated in this study. All observers, except for GK (one of the authors), were unaware of the purpose of the experiment. All observers had normal or corrected-to-normal vision. Say something about IRB here. 
 
 </Text>
         </Document>
@@ -337,18 +373,18 @@ How to enter Papers citations into Scrivener: http://support.mekentosj.com/kb/ci
 
 
 	
- </Text>
+</Text>
             <Comments>edit this using MathType.</Comments>
-        </Document>
-        <Document ID="46">
-            <Title>Abstract</Title>
-        </Document>
-        <Document ID="39">
-            <Title>Acknowledgements</Title>
         </Document>
         <Document ID="60">
             <Title>Methods</Title>
             <Text>Methods</Text>
+        </Document>
+        <Document ID="53">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="46">
+            <Title>Abstract</Title>
         </Document>
     </Documents>
 </SearchIndexes>
