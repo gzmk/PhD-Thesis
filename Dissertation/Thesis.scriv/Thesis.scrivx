@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.7-26106" Device="epicurus" Modified="2016-06-22 13:14:46 -0400" ModID="FD6693BC-AFC1-4083-B338-95F69901379A">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.7-26106" Device="micromac" Modified="2016-06-27 13:28:45 -0400" ModID="E71DA834-6A4C-4CFE-B514-7113CCF97BA2">
     <Binder>
         <BinderItem ID="0" UUID="ECD789F2-02AF-4E21-8782-0EABFBF3CF8A" Type="DraftFolder" Created="2016-06-01 13:07:22 -0400" Modified="2016-06-01 13:07:22 -0400">
             <Title>Draft</Title>
@@ -273,7 +273,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="26" UUID="BA2B4FCE-326A-49D8-8F03-7EF0CF9608E8" Type="Text" Created="2016-06-01 13:47:54 -0400" Modified="2016-06-21 12:57:07 -0400">
+                                <BinderItem ID="26" UUID="BA2B4FCE-326A-49D8-8F03-7EF0CF9608E8" Type="Text" Created="2016-06-01 13:47:54 -0400" Modified="2016-06-27 13:28:44 -0400">
                                     <Title>Title Page</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -323,14 +323,14 @@
                                                 <TextSelection>9,183</TextSelection>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="38" UUID="8B3C0860-44AB-44DA-A5CF-1D8D0E9746D7" Type="Text" Created="2016-06-01 14:07:49 -0400" Modified="2016-06-21 12:58:08 -0400">
+                                                <BinderItem ID="38" UUID="8B3C0860-44AB-44DA-A5CF-1D8D0E9746D7" Type="Text" Created="2016-06-01 14:07:49 -0400" Modified="2016-06-27 13:18:34 -0400">
                                                     <Title>Physical Depth Stimuli</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <NotesTextSelection>0,0</NotesTextSelection>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>1388,0</TextSelection>
+                                                        <TextSelection>683,0</TextSelection>
                                                     </TextSettings>
                                                 </BinderItem>
                                                 <BinderItem ID="41" UUID="0360E780-CF9E-45DB-8E46-DC3C9E6B07A6" Type="Text" Created="2016-06-01 14:10:36 -0400" Modified="2016-06-07 15:09:13 -0400">
@@ -350,17 +350,17 @@
                                                         <NotesTextSelection>0,0</NotesTextSelection>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>4362,25</TextSelection>
+                                                        <TextSelection>6809,0</TextSelection>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="43" UUID="3FA1B060-33A7-4B47-BBBF-CAB65F6A4BBA" Type="Text" Created="2016-06-01 14:11:13 -0400" Modified="2016-06-21 13:02:00 -0400">
+                                                <BinderItem ID="43" UUID="3FA1B060-33A7-4B47-BBBF-CAB65F6A4BBA" Type="Text" Created="2016-06-01 14:11:13 -0400" Modified="2016-06-27 12:51:38 -0400">
                                                     <Title>Computer-Rendered Stimuli</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
                                                         <NotesTextSelection>0,0</NotesTextSelection>
                                                     </MetaData>
                                                     <TextSettings>
-                                                        <TextSelection>1059,0</TextSelection>
+                                                        <TextSelection>2294,0</TextSelection>
                                                     </TextSettings>
                                                 </BinderItem>
                                             </Children>
@@ -397,24 +397,24 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="73" UUID="92B42EC9-E9A7-45F1-98CB-4B79879CFC8B" Type="Text" Created="2016-06-21 14:24:02 -0400" Modified="2016-06-22 12:57:52 -0400">
+                                <BinderItem ID="73" UUID="92B42EC9-E9A7-45F1-98CB-4B79879CFC8B" Type="Text" Created="2016-06-21 14:24:02 -0400" Modified="2016-06-27 12:54:24 -0400">
                                     <Title>Image Statistics</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <NotesTextSelection>0,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>806,0</TextSelection>
+                                        <TextSelection>811,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="30" UUID="836B72C9-37E3-42F8-9DED-7E4ED94A89D3" Type="Text" Created="2016-06-01 13:54:50 -0400" Modified="2016-06-22 13:14:46 -0400">
+                                <BinderItem ID="30" UUID="836B72C9-37E3-42F8-9DED-7E4ED94A89D3" Type="Text" Created="2016-06-01 13:54:50 -0400" Modified="2016-06-27 13:28:26 -0400">
                                     <Title>Results</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <NotesTextSelection>0,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>1606,0</TextSelection>
+                                        <TextSelection>3950,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem ID="31" UUID="0D9A1080-C51A-4141-9DB3-3A55740E228A" Type="Text" Created="2016-06-01 13:54:53 -0400" Modified="2016-06-01 13:54:57 -0400">
@@ -724,6 +724,58 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem ID="74" UUID="68B05A57-A79C-48E6-9E70-C8A0C24E67E8" Type="Text" Created="2016-06-27 12:28:30 -0400" Modified="2016-06-27 12:28:34 -0400">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="75" UUID="BD6AFED3-1AA0-4D9C-8C43-2CE214520E87" Type="Image" Created="2016-06-27 12:27:56 -0400" Modified="2016-06-27 12:28:09 -0400">
+                    <Title>D8G10L2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>eps</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                    <MediaSettings>
+                        <ImageScaleFactor>1.0</ImageScaleFactor>
+                        <ImageRotation>None</ImageRotation>
+                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                    </MediaSettings>
+                </BinderItem>
+                <BinderItem ID="76" UUID="1F32BC3C-40C1-4CEA-977D-A1563A13C421" Type="Image" Created="2016-06-27 12:27:50 -0400" Modified="2016-06-27 12:27:59 -0400">
+                    <Title>D3G3L1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>eps</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                    <MediaSettings>
+                        <ImageScaleFactor>1.0</ImageScaleFactor>
+                        <ImageRotation>None</ImageRotation>
+                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                    </MediaSettings>
+                </BinderItem>
+                <BinderItem ID="78" UUID="17939F92-B6ED-4256-9CFC-E80F17A4F184" Type="Image" Created="2016-06-27 13:05:23 -0400" Modified="2016-06-27 13:05:25 -0400">
+                    <Title>gloss_contours</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>tif</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                    <MediaSettings>
+                        <ImageScaleFactor>1.0</ImageScaleFactor>
+                        <ImageRotation>None</ImageRotation>
+                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                    </MediaSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
         <BinderItem ID="4" UUID="C69E0E63-FF7A-4F9F-812A-6E407CDF5DFF" Type="Folder" Created="2016-06-01 13:07:49 -0400" Modified="2016-06-01 13:08:31 -0400">
@@ -748,6 +800,20 @@
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
             <Children>
+                <BinderItem ID="77" UUID="0D100E87-1592-4099-8A57-C7510391D4D9" Type="Image" Created="2016-06-27 12:34:45 -0400" Modified="2016-06-27 12:34:46 -0400">
+                    <Title>rendered-stim</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>tif</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                    <MediaSettings>
+                        <ImageScaleFactor>1.0</ImageScaleFactor>
+                        <ImageRotation>None</ImageRotation>
+                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                    </MediaSettings>
+                </BinderItem>
                 <BinderItem ID="72" UUID="220D64E8-BFDF-4A8C-91B3-81DDB3E11908" Type="Image" Created="2016-06-21 13:22:30 -0400" Modified="2016-06-21 14:23:30 -0400">
                     <Title>results-ch2</Title>
                     <MetaData>
@@ -763,11 +829,25 @@
                         <ImageScalesProportionally>No</ImageScalesProportionally>
                     </MediaSettings>
                 </BinderItem>
+                <BinderItem ID="79" UUID="2713D3E7-AAFC-4A3C-8C30-D1D021AB53C9" Type="Image" Created="2016-06-27 13:05:23 -0400" Modified="2016-06-27 13:08:53 -0400">
+                    <Title>gloss_contours</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>tif</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                    <MediaSettings>
+                        <ImageScaleFactor>1.0</ImageScaleFactor>
+                        <ImageRotation>None</ImageRotation>
+                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                    </MediaSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
     <Collections>
-        <Collection Type="Binder" ID="36DF1FEA-E392-4A6F-8DE3-75D13F10C757" Color="0.962266 0.962266 0.962266">
+        <Collection Type="Binder" ID="36DF1FEA-E392-4A6F-8DE3-75D13F10C757" Color="0.962166 0.962322 0.96211">
             <Title>Binder</Title>
         </Collection>
         <Collection Type="RecentSearch" ID="B8CC02C9-800E-4869-84DF-6776D93AD601" Color="0.922 0.91 0.98">
@@ -806,7 +886,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2016-06-01 13:07:21 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">1000</SessionTarget>
-        <PreviousSession Words="256" Characters="1584" Date="2016-06-22 12:36:09 -0400"></PreviousSession>
+        <PreviousSession Words="543" Characters="3378" Date="2016-06-27 11:15:49 -0400"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
