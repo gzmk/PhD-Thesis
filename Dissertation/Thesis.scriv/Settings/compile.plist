@@ -382,9 +382,9 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 	<key>SCRCompileGroupIdentifierInfoKey</key>
 	<dict>
 		<key>Identifier</key>
-		<string>23</string>
+		<string>_CURRENT_SELECTION_</string>
 		<key>isCollection</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>SCRCompileHTMLBodyTableWidthKey</key>
 	<integer>600</integer>
@@ -409,7 +409,7 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 	<key>SCRCompileIncludeCompileGroupTextKey</key>
 	<true/>
 	<key>SCRCompileIncludeCurrentSelectionDescendantsKey</key>
-	<false/>
+	<true/>
 	<key>SCRCompileIncludeFootnotesInStatisticsKey</key>
 	<true/>
 	<key>SCRCompileIncludedTagKey</key>
